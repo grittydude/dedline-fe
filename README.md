@@ -1,16 +1,20 @@
-# React + Vite
+# 🕓 Dedline – Never Miss a Deadline Again
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dedline is a smart, secure, and customizable mobile-first deadline tracker built with Flutter, Hive, and Firebase.
+It helps individuals stay on top of important deadlines like document renewals, registrations, and subscriptions — reducing stress and avoiding penalties through timely reminders, smart organization, and personalization.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Architecture
 
-## React Compiler
+- Presentation Layer: Flutter Views + GetX Controllers
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Data Layer: Hive (local) + Firebase (remote)
 
-## Expanding the ESLint configuration
+- Domain Layer: Models and Use Cases for deadline logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Notification Service: Handles scheduling, timing, and delivery
+
+- Encryption Service: Secures sensitive data on device
+
+## 📱 Screenshots (Coming Soon)
+
