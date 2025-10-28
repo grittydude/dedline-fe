@@ -13,9 +13,9 @@ const Contact = () => {
         <h3>Send us a message <img src={msg_icon} alt="" /></h3>
         <p>Feel free to reach out through our contact form or find contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community</p>
         <ul>
-          <li><img src={mail_icon} alt="" />Contact@testing.com</li>
-          <li><img src={phone_icon} alt="" />+234094846473974</li>
-          <li><img src={location_icon} alt="" />88 Long beach drive, Cambridge <br/> MA 01238, United Kingdom</li>
+          <li><img src={mail_icon} alt="" />ikechukwu.a.achom@gmail.com</li>
+          <li><img src={phone_icon} alt="" />+234 810 950 7906</li>
+          <li><img src={location_icon} alt="" />Eket, Akwa Ibom State <br/> Nigeria.</li>
         </ul>
       </div>
       <div className="contact-col">

@@ -42,7 +42,12 @@ a{
 }
 
 .btn.dark-btn {
-  background: #212EA0;
+  background: #d11c43;
+  color: white;
+}
+
+.btn.dark-btn:hover {
+  background: #171616;
   color: white;
 }
 
