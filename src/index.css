@@ -45,3 +45,10 @@ a{
   background: #212EA0;
   color: white;
 }
+
+.btn:hover{
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+  background-color: #d11c43;
+  color: #F5F5F5;
+}
