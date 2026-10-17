@@ -30,7 +30,7 @@
 .about h3{
   font-weight: 600;
   font-size: 16px;
-  color: #212EA0;
+  color: #d11c43;
 }
 
 .about h2{
@@ -43,4 +43,15 @@
 .about p{
   color: #676767;
   margin-bottom: 15px;
+}
+
+.about ul{
+  color: #141414;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.about ul li{
+  margin-bottom: 8px;
+
 }
